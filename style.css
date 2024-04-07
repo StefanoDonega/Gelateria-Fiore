@@ -1,0 +1,108 @@
+.header {
+    width: 1000px;
+    margin: auto;
+}
+
+body {
+    background-image: url(images/sfondo.jpg);
+}
+
+h1 {
+    color: magenta;
+}
+
+h2 {
+    color: darkgrey;
+}
+
+.titoletti {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo-1 {
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    margin-left: 22%;
+    margin-right: 26%;
+
+}
+
+.float-paragrafo-1 {
+    float: left;
+    font-size: 18px;
+
+}
+
+.float.img-1 {
+    float: right;
+
+}
+
+
+
+.paragrafo-2 {
+    font-size: 18px;
+}
+
+hr {
+    background-color: magenta;
+    height: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.info {
+    color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mappa {
+    margin: auto;
+}
+
+.lista {
+    font-size: 18px;
+}
+
+
+.bordo-gelati {
+    border-color: magenta;
+    border-style: solid;
+    margin: 5px;
+}
+
+.img-gelato {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.foto-menu{
+    margin:auto;
+
+}
+
+h3{
+    color: darkgray
+}
+
+p{
+    color: darkgray
+}
+
+.contatti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contatti-2{
+    line-height: 0px;
+}
